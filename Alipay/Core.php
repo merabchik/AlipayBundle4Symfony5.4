@@ -6,7 +6,7 @@ namespace Grimmlink\AlipayBundle\Alipay;
  * Class Core.
  *
  *
- * @author Guillaume Fremont <grimmlink@gmail.com>
+ * @author Guillaume Fremont <grimmlink@gmail.com>, Merab Chikvaidze <merabi777@gmail.com>
  */
 class Core
 {

@@ -12,7 +12,7 @@ use Grimmlink\AlipayBundle\Event\AlipayResponseEvent;
  * Class Response.
  *
  *
- * @author Guillaume Fremont <grimmlink@gmail.com>
+ * @author Guillaume Fremont <grimmlink@gmail.com>, Merab Chikvaidze <merabi777@gmail.com>
  */
 class Response
 {
@@ -106,7 +106,7 @@ class Response
 				$verified = Core::rsaVerify($query_string, $this->config['alipay_public_key'], $query_parameters['sign']);
 				break;
 			default:
-				$verified = md5($query_string.$this->config['key']) == $parameters['sign'];
+				$verified = md5($query_string.$this->config['key']) == $this->parameters['sign'];
 		}
 
         return $verified;

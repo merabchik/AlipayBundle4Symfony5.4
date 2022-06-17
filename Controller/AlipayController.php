@@ -9,7 +9,7 @@ use Symfony\Component\HttpFoundation\Response;
  * Class AlipayController.
  *
  *
- * @author Guillaume Fremont <grimmlink@gmail.com>
+ * @author Guillaume Fremont <grimmlink@gmail.com>, Merab Chikvaidze <merabi777@gmail.com>
  */
 class AlipayController extends Controller
 {

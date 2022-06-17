@@ -9,7 +9,7 @@ use Grimmlink\AlipayBundle\Alipay\Core;
  * Class RequestTest.
  *
  *
- * @author Guillaume Fremont <grimmlink@gmail.com>
+ * @author Guillaume Fremont <grimmlink@gmail.com>, Merab Chikvaidze <merabi777@gmail.com>
  */
 class RequestTest extends \PHPUnit_Framework_TestCase
 {
